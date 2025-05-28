@@ -1,0 +1,11 @@
+:root {
+    font-size: 16px;
+    font-family: system-ui;
+}
+
+body {
+    max-width: 700px;
+    color: white;
+    background: black;
+    margin: 0 auto;
+}
