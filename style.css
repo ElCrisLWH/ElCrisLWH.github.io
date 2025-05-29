@@ -11,9 +11,11 @@ body {
     color: white;
     background: black;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 img {
+    width: 400px;
     display: block;
     margin: 20px auto;
 }
@@ -82,8 +84,8 @@ body::-webkit-scrollbar-thumb {
     background: var(--icon-primary);
 }
 
-@media (max-width: 800px) {
-    body {
-        max-width: 500px;
+@media (max-width: 600px) {
+    img {
+        width: 300px;
     }
 }
