@@ -81,3 +81,9 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background: var(--icon-primary);
 }
+
+@media (max-width: 800px) {
+    body {
+        max-width: 500px;
+    }
+}
