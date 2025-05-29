@@ -6,13 +6,31 @@
 }
 
 body {
+    overflow-y: scroll;
     max-width: 700px;
     color: white;
     background: black;
     margin: 0 auto;
 }
 
-/* Contact */
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+.image-container {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.image-container .icon-link {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(0, -50%);
+    margin-left: 10px;
+}
 
 .contacts {
     list-style: none;
@@ -27,4 +45,39 @@ body {
     min-width: 2rem;
     margin: 0 1rem;
     color: var(--icon-primary);
+}
+
+/* Header */
+
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--icon-secondary);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    font-size: 1.3rem;
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--icon-secondary);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--icon-primary);
+}
+
+/* Scrollbar */
+
+body::-webkit-scrollbar {
+    width: 0.75rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--icon-primary);
 }
