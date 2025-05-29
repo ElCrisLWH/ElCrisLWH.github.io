@@ -12,7 +12,24 @@ body {
     margin: 0 auto;
 }
 
-/* Contact */
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+.image-container {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.image-container .icon-link {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(0, -50%);
+    margin-left: 10px;
+}
 
 .contacts {
     list-style: none;
