@@ -87,6 +87,14 @@ nav a:hover {
     object-fit: cover;
 }
 
+/* Resume-style bullets */
+
+.bullet {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 /* Scrollbar */
 
 body::-webkit-scrollbar {
